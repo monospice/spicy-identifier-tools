@@ -39,7 +39,7 @@ class Formatter implements Interfaces\Formatter
     public static function formatCamelCase(array $parts)
     {
         return lcfirst(
-            implode('', array_map(function ($p) {
+            implode('', array_map(function($p) {
                 return static::ucfirstAndLower($p);
             }, $parts))
         );
@@ -49,7 +49,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUpperCamelCase(array $parts)
     {
-        return implode('', array_map(function ($p) {
+        return implode('', array_map(function($p) {
             return static::ucfirstAndLower($p);
         }, $parts));
     }
@@ -58,7 +58,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatCamelCaseWithAcronyms(array $parts)
     {
-        $camelCase = array_map(function ($p) {
+        $camelCase = array_map(function($p) {
             return static::ucfirstAndLowerNonAcronym($p);
         }, $parts);
 
@@ -73,7 +73,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUpperCamelCaseWithAcronyms(array $parts)
     {
-        return implode('', array_map(function ($p) {
+        return implode('', array_map(function($p) {
             return static::ucfirstAndLowerNonAcronym($p);
         }, $parts));
     }
@@ -89,7 +89,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUpperUnderscore(array $parts)
     {
-        return implode('_', array_map(function ($p) {
+        return implode('_', array_map(function($p) {
             return static::ucfirstAndLower($p);
         }, $parts));
     }
@@ -105,7 +105,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUnderscoreWithAcronyms(array $parts)
     {
-        return implode('_', array_map(function ($p) {
+        return implode('_', array_map(function($p) {
             return static::lowerNonAcronym($p);
         }, $parts));
     }
@@ -114,7 +114,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUpperUnderscoreWithAcronyms(array $parts)
     {
-        return implode('_', array_map(function ($p) {
+        return implode('_', array_map(function($p) {
             return static::ucfirstAndLowerNonAcronym($p);
         }, $parts));
     }
@@ -130,7 +130,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUpperHyphen(array $parts)
     {
-        return implode('-', array_map(function ($p) {
+        return implode('-', array_map(function($p) {
             return static::ucfirstAndLower($p);
         }, $parts));
     }
@@ -146,7 +146,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatHyphenWithAcronyms(array $parts)
     {
-        return implode('-', array_map(function ($p) {
+        return implode('-', array_map(function($p) {
             return static::lowerNonAcronym($p);
         }, $parts));
     }
@@ -155,7 +155,7 @@ class Formatter implements Interfaces\Formatter
     // Inherit Doc from Interfaces\Formatter
     public static function formatUpperHyphenWithAcronyms(array $parts)
     {
-        return implode('-', array_map(function ($p) {
+        return implode('-', array_map(function($p) {
             return static::ucfirstAndLowerNonAcronym($p);
         }, $parts));
     }
