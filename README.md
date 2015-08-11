@@ -1,6 +1,8 @@
 Spicy Identifier Tools
 =======
 
+[![Build Status](https://travis-ci.org/monospice/spicy-identifier-tools.svg?branch=master)](https://travis-ci.org/monospice/spicy-identifier-tools)
+
 **An easy way to parse, convert, and format identifier names.**
 
 These tools are helpful when working with dynamic identifier names such
@@ -64,7 +66,7 @@ Parser::parse('anIdentifier', CaseFormat::CAMEL_CASE);
 ```
 
 *Note*: Although PHP doesn't support hyphens in identifier names, the hyphen
-methods may be useful when working between other languages that do, like 
+methods may be useful when working between other languages that do, like
 HTML/CSS or Lisp (gasp!).
 
 **Formatter**
