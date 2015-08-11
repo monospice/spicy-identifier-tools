@@ -168,7 +168,7 @@ class Formatter implements Interfaces\Formatter
      *
      * @return bool True if the string is all caps
      */
-    protected function isAcronym($string)
+    protected static function isAcronym($string)
     {
         return strtoupper($string) === $string;
     }
@@ -195,7 +195,7 @@ class Formatter implements Interfaces\Formatter
      *
      * @return string The converted string
      */
-    protected function lowerNonAcronym($string)
+    protected static function lowerNonAcronym($string)
     {
         if (static::isAcronym($string)) {
             return $string;
@@ -213,7 +213,7 @@ class Formatter implements Interfaces\Formatter
      *
      * @return string The converted string
      */
-    protected function ucfirstAndLowerNonAcronym($string)
+    protected static function ucfirstAndLowerNonAcronym($string)
     {
         if (static::isAcronym($string)) {
             return $string;
