@@ -117,7 +117,7 @@ class Parser implements Interfaces\Parser
             '(' .
                 // A sequence that starts with a capital letter following a
                 // lowercase letter or number:
-                '(?<=[a-z0-9' . $lower . '])(?=[A-Z' . $upper .'])' .
+                '(?<=[a-z0-9' . $lower . '])(?=[A-Z' . $upper . '])' .
                 // Or
                 '|' .
                 // A sequence that starts with a capital letter followed by a
