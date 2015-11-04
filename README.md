@@ -115,10 +115,10 @@ Case Format              | Constant Name                  | Example
 Uppercase                | UPPERCASE                      | ANIDENTIFIER
 Lowercase                | LOWERCASE                      | anidentifier
 Camel Case               | CAMEL_CASE                     | anIdentifier
-Upper Camel Case         | UPPER_CAMEL_CASE               | AnIdentifier
+Upper Camel Case         | UPPER_CAMEL_CASE or STUDLY_CAPS| AnIdentifier
 Camel Case with Acronyms | CAMEL_CASE_WITH_ACRONYMS       | anIdentifierACRNM
 Upper CC with Acronyms   | UPPER_CAMEL_CASE_WITH_ACRONYMS | AnIdentifierACRNM
-Underscore (snake case)  | UNDERSCORE (or SNAKE_CASE)     | an_identifier
+Underscore (snake case)  | UNDERSCORE or SNAKE_CASE       | an_identifier
 Upper Underscore         | UPPER_UNDERSCORE               | An_Identifier
 Capitalized Underscore   | CAPS_UNDERSCORE                | AN_IDENTIFIER
 Underscore with Acronyms | UNDERSCORE_WITH_ACRONYMS       | an_identifier_ACRNM

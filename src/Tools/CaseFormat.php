@@ -11,107 +11,163 @@ class CaseFormat
 {
 
     /**
-     * string Represents alllowercase (with no delimiter)
+     * Represents alllowercase (with no delimiter)
+     *
+     * @var string
      */
     const LOWERCASE = 'Lowercase';
 
     /**
-     * string Represents ALLUPPERCASE (with no delimiter)
+     * Represents ALLUPPERCASE (with no delimiter)
+     *
+     * @var string
      */
     const UPPERCASE = 'Uppercase';
 
     /**
-     * string Represents camelCase
+     * Represents camelCase
+     *
+     * @var string
      */
     const CAMEL_CASE = 'CamelCase';
 
     /**
-     * string Represents UpperCamelCase
+     * Represents UpperCamelCase
+     *
+     * @var string
      */
     const UPPER_CAMEL_CASE = 'UpperCamelCase';
 
     /**
-     * string Represents camelCaseWithACRNMS (with Acronyms)
+     * An alias for CaseFormat::UPPER_CAMEL_CASE
+     *
+     * @var string
+     */
+    const STUDLY_CAPS = 'UpperCamelCase';
+
+    /**
+     * Represents camelCaseWithACRNMS (with Acronyms)
+     *
+     * @var string
      */
     const CAMEL_CASE_WITH_ACRONYMS = 'CamelCaseWithAcronyms';
 
     /**
-     * string Represents UpperCamelCaseWithACRNMS (with Acronyms)
+     * Represents UpperCamelCaseWithACRNMS (with Acronyms)
+     *
+     * @var string
      */
     const UPPER_CAMEL_CASE_WITH_ACRONYMS = 'UpperCamelCaseWithAcronyms';
 
     /**
-     * string Represents underscore_case
+     * An alias for CaseFormat::UPPER_CAMEL_CASE_WITH_ACRONYMS
+     *
+     * @var string
+     */
+    const STUDLY_CAPS_WITH_ACRONYMS = 'UpperCamelCaseWithAcronyms';
+
+    /**
+     * Represents underscore_case
+     *
+     * @var string
      */
     const UNDERSCORE = 'Underscore';
 
     /**
-     * string Represents Upper_Underscore_Case
+     * Represents Upper_Underscore_Case
+     *
+     * @var string
      */
     const UPPER_UNDERSCORE = 'UpperUnderscore';
 
     /**
-     * string Represents CAPITALIZED_UNDERSCORE_CASE
+     * Represents CAPITALIZED_UNDERSCORE_CASE
+     *
+     * @var string
      */
     const CAPS_UNDERSCORE = 'CapsUnderscore';
 
     /**
-     * string Represents underscore_case_with_ACRNMS (with Acronyms)
+     * Represents underscore_case_with_ACRNMS (with Acronyms)
+     *
+     * @var string
      */
     const UNDERSCORE_WITH_ACRONYMS = 'UnderscoreWithAcronyms';
 
     /**
-     * string Represents Upper_Underscore_Case_With_ACRNMS (with Acronyms)
+     * Represents Upper_Underscore_Case_With_ACRNMS (with Acronyms)
+     *
+     * @var string
      */
     const UPPER_UNDERSCORE_WITH_ACRONYMS = 'UpperUnderscoreWithAcronyms';
 
     /**
-     * string An alias for CaseFormat::UNDERSCORE
+     * An alias for CaseFormat::UNDERSCORE
+     *
+     * @var string
      */
     const SNAKE_CASE = 'Underscore';
 
     /**
-     * string An alias for CaseFormat::UPPER_UNDERSCORE
+     * An alias for CaseFormat::UPPER_UNDERSCORE
+     *
+     * @var string
      */
     const UPPER_SNAKE_CASE = 'UpperUnderscore';
 
     /**
-     * string An alias for CaseFormat::CAPS_UNDERSCORE
+     * An alias for CaseFormat::CAPS_UNDERSCORE
+     *
+     * @var string
      */
     const CAPS_SNAKE_CASE = 'CapsUnderscore';
 
     /**
-     * string An alias for CaseFormat::UNDERSCORE_WITH_ACRONYMS
+     * An alias for CaseFormat::UNDERSCORE_WITH_ACRONYMS
+     *
+     * @var string
      */
     const SNAKE_CASE_WITH_ACRONYMS = 'UnderscoreWithAcronyms';
 
     /**
-     * string An alias for CaseFormat::UPPER_UNDERSCORE_WITH_ACRONYMS
+     * An alias for CaseFormat::UPPER_UNDERSCORE_WITH_ACRONYMS
+     *
+     * @var string
      */
     const UPPER_SNAKE_CASE_WITH_ACRONYMS = 'UpperUnderscoreWithAcronyms';
 
     /**
-     * string Represents hyphenated-case
+     * Represents hyphenated-case
+     *
+     * @var string
      */
     const HYPHEN = 'Hyphen';
 
     /**
-     * string Represents Upper-Hyphenated-Case
+     * Represents Upper-Hyphenated-Case
+     *
+     * @var string
      */
     const UPPER_HYPHEN = 'UpperHyphen';
 
     /**
-     * string Represents CAPITALIZED-HYPENATED-CASE
+     * Represents CAPITALIZED-HYPENATED-CASE
+     *
+     * @var string
      */
     const CAPS_HYPHEN = 'CapsHyphen';
 
     /**
-     * string Represents hyphenated-case-with-ACRNMS (with Acronyms)
+     * Represents hyphenated-case-with-ACRNMS (with Acronyms)
+     *
+     * @var string
      */
     const HYPHEN_WITH_ACRONYMS = 'HyphenWithAcronyms';
 
     /**
-     * string Represents Upper-Hyphenated-Case-With-ACRNMS (with Acronyms)
+     * Represents Upper-Hyphenated-Case-With-ACRNMS (with Acronyms)
+     *
+     * @var string
      */
     const UPPER_HYPHEN_WITH_ACRONYMS = 'UpperHyphenWithAcronyms';
 }
